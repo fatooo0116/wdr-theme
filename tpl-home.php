@@ -16,12 +16,13 @@
         @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/royalslider.css?nrrlwt");
     </style>
 
-
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>/../compiled/bootstrap.css"/>
-    <style>
-         @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/bootstrap/css/bootstrap.css?nrrlwt");
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>/../css/old_style.css"/>
 
-        @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/frogweb6_style.css?nrrlwt");
+
+    <style>
+        /*   @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/bootstrap/css/bootstrap.css?nrrlwt"); */
+        /* @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/frogweb6_style.css?nrrlwt"); */
     </style>
 
 </head>
@@ -218,8 +219,8 @@
 </div>
 
 <footer class="footer" id="footer">
-    <div class="row-fluid">
-        <div class="span4">
+    <div class="row">
+        <div class="col-sm-4">
             <p><span class="logo">frog</span></p>
             <p>Design and innovation that advances the human experience.</p>
             <ul class="studios clearfix"><li class="first"><a href="/contact/new-business.html">New Business</a></li>
@@ -227,7 +228,7 @@
                 <li><a href="/contact/media.html">Media</a></li>
                 <li class="last"><a href="/careers/internships.html">Internships</a></li>
             </ul>                </div>
-        <div class="span3 offset1">
+        <div class="col-sm-3 offset1">
             <h3>Studios</h3>
             <ul class="studios clearfix"><li class="first"><a href="/contact/amsterdam.html">Amsterdam</a></li>
                 <li><a href="/contact/austin.html">Austin</a></li>
@@ -241,7 +242,7 @@
                 <li><a href="/contact/shanghai.html">Shanghai</a></li>
                 <li class="last"><a href="/contact/singapore.html">Singapore</a></li>
             </ul>                </div>
-        <div class="span3 offset1">
+        <div class="col-sm-3 offset1">
             <h3>Elsewhere</h3>
             <ul class="studios clearfix"><li class="first"><a href="/contact#additional">Australia</a></li>
                 <li><a href="/contact#additional">Dubai</a></li>
@@ -289,8 +290,21 @@
             </script></section> <!-- /.block -->
     </div>
 </footer>
+
+
 </div>
-<div id="search"><div class="container">            <div class="region region-search">
+
+
+
+
+
+
+
+
+
+<div id="search">
+    <div class="container">
+        <div class="region region-search">
             <section id="block-search-api-page-new-search" class="block block-search-api-page">
 
 
@@ -304,8 +318,10 @@
                             <input type="hidden" name="form_id" value="search_api_page_search_form_new_search" />
                         </div></div></form></section> <!-- /.block -->
         </div>
-    </div></div>
+    </div>
 </div>
+</div>
+
 
 <script src="http://www.frogdesign.com/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2"></script>
 <script src="http://www.frogdesign.com/misc/jquery.once.js?v=1.2"></script>
@@ -317,7 +333,10 @@
 <script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.inview.js?nrrlwt"></script>
 <script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.royalslider.min.js?nrrlwt"></script>
 <script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/script.js?nrrlwt"></script>
+<!--
 <script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.flexslider-min.js?nrrlwt"></script>
+-->
+
 <script src="http://localhost:35729/livereload.js"></script>
 </body>
 </html>

@@ -1,4 +1,13 @@
 <?php
+/**
+ * Created by WDr co.
+ * User: Wade Hsu.
+ * Date: 2015/7/23
+ * Description: theme setting
+ */
+
+
+
 add_action('admin_menu', 'my_cool_plugin_create_menu');
 
 function my_cool_plugin_create_menu() {
@@ -92,6 +101,8 @@ function my_cool_plugin_settings_page() {
 add_action( 'wp_ajax_wdr_ajax_get', 'wdr_ajax_fun' ); // 針對已登入的使用者
 add_action( 'wp_ajax_nopriv_wdr_ajax_get', 'wdr_ajax_fun' ); // 針對未登入的使用者
 function wdr_ajax_fun() {
+
+    
 
 // Force a short-init since we just need core WP, not the entire framework stack
     define( 'SHORTINIT', true );
