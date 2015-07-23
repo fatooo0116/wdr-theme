@@ -5,6 +5,13 @@
  * @package WDR-theme
  */
 
+
+
+include 'option/theme-option.php';
+
+
+
+
 if ( ! function_exists( 'wdr_theme_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -148,3 +155,21 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+
+
+
+/*  Add angular.js  to Admin */
+function  angular_script(){
+
+    wp_enqueue_script(
+        'angulars',
+        get_stylesheet_directory_uri() . '/js/angular/angular.min.js'
+    );
+    wp_enqueue_script(
+        'angulars-route',
+        get_stylesheet_directory_uri() . '/js/angular/angular-route.min.js'
+    );
+}
+add_action( 'admin_enqueue_scripts', 'angular_script' );

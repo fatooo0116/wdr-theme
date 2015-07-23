@@ -15,7 +15,8 @@ module.exports = function(grunt){
                     sourcemap:'none'
                 },
                 files:{
-                    'compiled/style.css':'sass/style.scss'
+                    'compiled/style.css':'sass/style.scss',
+                    'compiled/bootstrap.css':'sass/bootstrap/bootstrap.scss'
                 }
             },
             dist:{

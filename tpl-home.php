@@ -1,6 +1,6 @@
 <?php
 /**
- *  Template name: home1
+ *  Template name: tpl-home1
  */
 ?>
 
@@ -15,13 +15,14 @@
         @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/frogfont.css?nrrlwt");
         @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/royalslider.css?nrrlwt");
     </style>
+
+
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>/../compiled/bootstrap.css"/>
     <style>
          @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/bootstrap/css/bootstrap.css?nrrlwt");
-        @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/css/style.css?nrrlwt");
-        /* @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/flexslider.css?nrrlwt"); */
+
         @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/frogweb6_style.css?nrrlwt");
     </style>
-
 
 </head>
 <body>
@@ -81,9 +82,9 @@
     </article>
 </div>
 
-<div class="row-fluid">
-    <div class="span6">
-        <div class="span6" id="item-1"><div class="square"><article id="node-3338" class="node node-work skirt txt-clr-white txt-ln-lb" data-terms="99,131,130,105,106,109,129,118,119,120,143,135,140,141,145,175">
+<div class="row">
+    <div class="col-sm-6">
+        <div class="col-sm-6" id="item-1"><div class="square"><article id="node-3338" class="node node-work skirt txt-clr-white txt-ln-lb" data-terms="99,131,130,105,106,109,129,118,119,120,143,135,140,141,145,175">
                     <div class="content">
                         <div class="type"><span>BNY Mellon</span></div>
                         <div class="image">
@@ -97,7 +98,7 @@
                     </div>
 
                 </article> </div></div>
-        <div class="span6" id="item-2"><div class="square"><article id="node-3253" class="node node-work skirt txt-clr-black txt-ln-lt" data-terms="92,96,98,102,131,105,129,111,117,119,135,134,172,141,133,175">
+        <div class="col-sm-6" id="item-2"><div class="square"><article id="node-3253" class="node node-work skirt txt-clr-black txt-ln-lt" data-terms="92,96,98,102,131,105,129,111,117,119,135,134,172,141,133,175">
                     <div class="content">
                         <div class="type"><span>Honeywell</span></div>
                         <div class="image">
@@ -111,7 +112,7 @@
                     </div>
 
                 </article> </div></div>
-        <div class="span12" id="item-4"><div class="square"><article id="node-2821" class="node node-work skirt txt-clr-white txt-ln-lm" data-terms="102,131,130,106,109,110,128,117,118,119,120,143,135,140,136,137,138,144">
+        <div class="col-sm-12" id="item-4"><div class="square"><article id="node-2821" class="node node-work skirt txt-clr-white txt-ln-lm" data-terms="102,131,130,106,109,110,128,117,118,119,120,143,135,140,136,137,138,144">
                     <div class="content">
                         <div class="type"><span>GE</span></div>
                         <div class="image">
@@ -125,7 +126,7 @@
                     </div>
 
                 </article> </div></div>
-        <div class="span6" id="item-7"><div class="square">
+        <div class="col-sm-6" id="item-7"><div class="square">
                 <article class="node node-social node-promoted node-teaser row-fluid clearfix">
                     <div class="type"><span>Tweet</span></div>
                     <hgroup class="header">
@@ -138,7 +139,7 @@
                     </hgroup>
                 </article>
             </div></div>
-        <div class="span6" id="item-8"><div class="hrect"><article id="node-3649" class="node node-event node-promoted node-teaser row-fluid clearfix" data-terms="event">
+        <div class="col-sm-6" id="item-8"><div class="hrect"><article id="node-3649" class="node node-event node-promoted node-teaser row-fluid clearfix" data-terms="event">
                     <div class="type"><span>Event</span></div>
                     <div class="thumb">
                         <img src="http://www.frogdesign.com/sites/default/files/dunnam260280_1.jpg" width="260" height="280" alt="" />            </div>
@@ -153,8 +154,8 @@
             </div></div>
         <div class="shift"><div class="span12 img-shape" id="item-9"><div class="square"><a href="/about/culture" rel="nofollow"><img class="img-shape" data-src-gif="/sites/all/themes/bootstrap/frogweb6/images/gifs/frog-gif-003.gif" data-src-orig="/sites/default/files/404-1.jpg" src="/sites/default/files/404-1.jpg" alt="" /></a></div></div></div>
     </div>
-    <div class="span6">
-        <div class="span12" id="item-3"><div class="square"><article id="node-2816" class="node node-work skirt txt-clr-white txt-ln-lb" data-terms="92,131,105,112,117,119,120,143,135,140,134,141,145,133">
+    <div class="col-sm-6">
+        <div class="col-sm-12" id="item-3"><div class="square"><article id="node-2816" class="node node-work skirt txt-clr-white txt-ln-lb" data-terms="92,131,105,112,117,119,120,143,135,140,134,141,145,133">
                     <div class="content">
                         <div class="type"><span>Sound United</span></div>
                         <div class="image">
@@ -168,7 +169,7 @@
                     </div>
 
                 </article> </div></div>
-        <div class="span6" id="item-5"><div class="hrect"><article id="node-3601" class="node node-frog-in-the-news node-promoted node-teaser row-fluid clearfix" data-terms="news">
+        <div class="col-sm-6" id="item-5"><div class="hrect"><article id="node-3601" class="node node-frog-in-the-news node-promoted node-teaser row-fluid clearfix" data-terms="news">
                     <div class="type"><span>UNICEF + frog + ARM</span></div>
                     <div class="thumb">
                         <img src="http://www.frogdesign.com/sites/default/files/wearablesforgood.jpeg" width="260" height="280" alt="" />            </div>
@@ -179,8 +180,8 @@
                     </hgroup>
                 </article> <!-- /.node -->
             </div></div>
-        <div class="span6 img-shape" id="item-6"><div class="square"><a href="/about/culture" rel="nofollow"><img class="img-shape" data-src-gif="/sites/all/themes/bootstrap/frogweb6/images/gifs/drill_animated.gif" data-src-orig="/sites/default/files/404-3.jpg" src="/sites/default/files/404-3.jpg" alt="" /></a></div></div>
-        <div class="span6" id="item-11"><div class="square"><article id="node-3349" class="node node-frog-in-the-news node-promoted node-teaser row-fluid clearfix" data-terms="news">
+        <div class="col-sm-6 img-shape" id="item-6"><div class="square"><a href="/about/culture" rel="nofollow"><img class="img-shape" data-src-gif="/sites/all/themes/bootstrap/frogweb6/images/gifs/drill_animated.gif" data-src-orig="/sites/default/files/404-3.jpg" src="/sites/default/files/404-3.jpg" alt="" /></a></div></div>
+        <div class="col-sm-6" id="item-11"><div class="square"><article id="node-3349" class="node node-frog-in-the-news node-promoted node-teaser row-fluid clearfix" data-terms="news">
                     <div class="type"><span>Press Release</span></div>
                     <hgroup class="header">
                         <div class="info">
@@ -190,8 +191,8 @@
                 </article> <!-- /.node -->
             </div></div>
     </div>
-    <div class="span6">
-        <div class="span6" id="item-10"><div class="square"><article id="node-3586" class="node node-event node-promoted node-teaser row-fluid clearfix" data-terms="event">
+    <div class="col-sm-6">
+        <div class="col-sm-6" id="item-10"><div class="square"><article id="node-3586" class="node node-event node-promoted node-teaser row-fluid clearfix" data-terms="event">
                     <div class="type"><span>Event</span></div>
                     <div class="thumb">
                         <img src="http://www.frogdesign.com/sites/default/files/adampruden_260280_1.jpg" width="260" height="280" alt="" />            </div>
@@ -204,7 +205,7 @@
                     </hgroup>
                 </article> <!-- /.node -->
             </div></div>
-        <div class="span6" id="item-12"><div class="square"><article id="node-3583" class="node node-news node-promoted node-teaser row-fluid clearfix" data-terms="news">
+        <div class="col-sm-6" id="item-12"><div class="square"><article id="node-3583" class="node node-news node-promoted node-teaser row-fluid clearfix" data-terms="news">
                     <div class="type"><span>Harvard Business Review</span></div>
                     <hgroup class="header">
                         <div class="info">
