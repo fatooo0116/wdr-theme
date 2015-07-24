@@ -2,74 +2,13 @@
 /**
  *  Template name: tpl-home1
  */
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>frog | Global Product Strategy and Design Firm</title>
-    <style>
-        @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/frogfont.css?nrrlwt");
-        @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/royalslider.css?nrrlwt");
-    </style>
-
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>/../compiled/bootstrap.css"/>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>/../css/old_style.css"/>
 
 
-    <style>
-        /*   @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/bootstrap/css/bootstrap.css?nrrlwt"); */
-        /* @import url("http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/css/frogweb6_style.css?nrrlwt"); */
-    </style>
+get_header('frog'); ?>
 
-</head>
-<body>
-<header id="navbar" role="banner">
-    <div class="nav-mask"></div>
-    <nav class="main container">
-        <div class="wrapper">
-            <a class="logo" href="/" title="Home"></a>
-            <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-1">
-                <ul class="menu nav"><li class="touch-only"><a href="/index.html" class="active">Home</a></li>
-                    <li><a href="/work">Work</a></li>
-                    <li><a href="/services">Services</a><i></i><ul><li><a href="/services/growth-strategy.html">Growth Strategy</a></li>
-                            <li><a href="/services/experience-strategy.html">Experience Strategy</a></li>
-                            <li><a href="/services/product-service-design.html">Product + Service Design</a></li>
-                            <li><a href="/services/product-realization.html">Product Realization</a></li>
-                            <li><a href="/services/tools.html">Tools</a></li>
-                            <li><a href="/services/disciplines.html">Disciplines</a></li>
-                        </ul></li>
-                    <li><a href="/platforms.html">Platforms</a><i></i><ul><li><a href="/platforms/frogimpact.html">frogImpact&trade;</a></li>
-                            <li><a href="/platforms/frogventures.html">frogVentures&trade;</a></li>
-                            <li><a href="/platforms/froglabs.html">frogLabs&trade;</a></li>
-                            <li><a href="http://www.frogdesign.com/platforms/frogcamp.html">frogCamp™</a></li>
-                        </ul></li>
-                    <li><a href="/news-views">News + Views</a></li>
-                    <li><a href="/about">About</a><i></i><ul><li><a href="/about/history.html">History</a></li>
-                            <li><a href="/about/partners.html">Partners</a></li>
-                            <li><a href="/about/culture">Culture</a></li>
-                        </ul></li>
-                    <li><a href="/careers">Careers</a><i></i><ul><li><a href="/careers/jobs.html">Jobs</a></li>
-                            <li><a href="/careers/internships.html">Internships</a></li>
-                        </ul></li>
-                    <li><a href="/contact">Contact</a><i></i><ul><li><a href="/contact/new-business.html">New Business</a></li>
-                            <li><a href="/contact/media.html">Media Inquiries</a></li>
-                        </ul></li>
-                    <li><a href="http://www.frogdesign.com/">Language</a><i></i><ul><li><a href="http://www.frogdesign.cn">中文</a></li>
-                            <li><a href="http://www.frogdesign.de">Deutsch</a></li>
-                        </ul></li>
-                    <li><a href="http://designmind.frogdesign.com">design mind</a></li>
-                    <li class="search"><a href="/s">Search</a></li>
-                </ul></div>
-        </div>
-    </nav>
-</header>
+
 <div id="wrapper">
 <div class="container">
-
 
 <div class="hero">
     <article id="node-3201" class="node node-work hero txt-clr-black txt-ln-lb" data-terms="92,98,105,129,118,119,143,134,141,133,175">
@@ -79,9 +18,10 @@
                 <p><a href="/work/new-matter-3d-printing-ecoystem.html" rel="nofollow">A whole new way to make, collect, and connect</a></p>
             </div>
         </div>
-
     </article>
 </div>
+
+
 
 <div class="row">
     <div class="col-sm-6">
@@ -217,126 +157,4 @@
             </div></div>
     </div>
 </div>
-
-<footer class="footer" id="footer">
-    <div class="row">
-        <div class="col-sm-4">
-            <p><span class="logo">frog</span></p>
-            <p>Design and innovation that advances the human experience.</p>
-            <ul class="studios clearfix"><li class="first"><a href="/contact/new-business.html">New Business</a></li>
-                <li><a href="/careers/jobs.html">Careers</a></li>
-                <li><a href="/contact/media.html">Media</a></li>
-                <li class="last"><a href="/careers/internships.html">Internships</a></li>
-            </ul>                </div>
-        <div class="col-sm-3 offset1">
-            <h3>Studios</h3>
-            <ul class="studios clearfix"><li class="first"><a href="/contact/amsterdam.html">Amsterdam</a></li>
-                <li><a href="/contact/austin.html">Austin</a></li>
-                <li><a href="/contact/boston.html">Boston</a></li>
-                <li><a href="/contact/london.html">London</a></li>
-                <li><a href="/contact/milan.html">Milan</a></li>
-                <li><a href="/contact/munich.html">Munich</a></li>
-                <li><a href="/contact/new-york.html">New York</a></li>
-                <li><a href="/contact/san-francisco.html">San Francisco</a></li>
-                <li><a href="/contact/seattle.html">Seattle</a></li>
-                <li><a href="/contact/shanghai.html">Shanghai</a></li>
-                <li class="last"><a href="/contact/singapore.html">Singapore</a></li>
-            </ul>                </div>
-        <div class="col-sm-3 offset1">
-            <h3>Elsewhere</h3>
-            <ul class="studios clearfix"><li class="first"><a href="/contact#additional">Australia</a></li>
-                <li><a href="/contact#additional">Dubai</a></li>
-                <li><a href="/contact#additional">Seoul</a></li>
-                <li><a href="/contact#additional">Tel Aviv</a></li>
-                <li class="last"><a href="/contact#additional">Tokyo</a></li>
-            </ul>                    <ul class="social">
-                <li class="twitter"><a href="https://twitter.com/frogdesign">Twitter</a></li>
-                <li class="facebook"><a href="https://www.facebook.com/pages/frog-design/5612622846">Facebook</a></li>
-                <li class="linkedin"><a href="http://www.linkedin.com/company/163904">LinkedIn</a></li>
-                <li class="vimeo"><a href="http://vimeo.com/frog">Vimeo</a></li>
-                <li class="instagram"><a href="http://instagram.com/frog_design">Instagram</a></li>
-            </ul>
-        </div>
-    </div>
-    <p class="legal">&copy; 2015 frog design inc. All Rights Reserved. <a href="/privacy-policy.html">Privacy Policy</a> | <a href="/terms-of-use.html">Terms of Use</a></p>
-    <div class="region region-footer">
-        <section id="block-block-4" class="block block-block">
-
-
-            <script>
-                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-                ga('create', 'UA-592165-1', 'frogdesign.com');
-                ga('send', 'pageview');
-
-            </script></section> <!-- /.block -->
-        <section id="block-block-6" class="block block-block">
-
-
-            <script type="text/javascript">
-                <!--//--><![CDATA[// ><!--
-
-                (function(d,s,i,r) {
-                    if (d.getElementById(i)){return;}
-                    var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-                    n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/262724.js';
-                    e.parentNode.insertBefore(n, e);
-                })(document,"script","hs-analytics",300000);
-
-                //--><!]]>
-            </script></section> <!-- /.block -->
-    </div>
-</footer>
-
-
-</div>
-
-
-
-
-
-
-
-
-
-<div id="search">
-    <div class="container">
-        <div class="region region-search">
-            <section id="block-search-api-page-new-search" class="block block-search-api-page">
-
-
-                <form action="/" method="post" id="search-api-page-search-form-new-search" accept-charset="UTF-8"><div><a href="#" class="close">Close</a><div class="wrap"><div class="control-group form-type-textfield form-item-keys-3 form-item">
-                                <label class="element-invisible control-label" for="edit-keys-3">Enter your keywords </label>
-                                <div class="controls"> <input type="text" id="edit-keys-3" name="keys_3" value="" size="15" maxlength="128" class="form-text" />
-                                </div></div>
-                            <input type="hidden" name="id" value="3" />
-                            <button class="btn btn-primary form-submit" id="edit-submit-3" name="op" value="Search" type="submit">Search</button>
-                            <input type="hidden" name="form_build_id" value="form-ffGyVyAOS5YeyXq6qpUO1EeKSGSSNJerFhu-34A-kgM" />
-                            <input type="hidden" name="form_id" value="search_api_page_search_form_new_search" />
-                        </div></div></form></section> <!-- /.block -->
-        </div>
-    </div>
-</div>
-</div>
-
-
-<script src="http://www.frogdesign.com/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.2"></script>
-<script src="http://www.frogdesign.com/misc/jquery.once.js?v=1.2"></script>
-<script src="http://www.frogdesign.com/misc/drupal.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/bootstrap/js/bootstrap.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/modernizr.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.scrollTo-1.4.3.1-min.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.history.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.inview.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.royalslider.min.js?nrrlwt"></script>
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/script.js?nrrlwt"></script>
-<!--
-<script src="http://www.frogdesign.com/sites/all/themes/bootstrap/frogweb6/js/jquery.flexslider-min.js?nrrlwt"></script>
--->
-
-<script src="http://localhost:35729/livereload.js"></script>
-</body>
-</html>
+<?php get_footer('frog'); ?>

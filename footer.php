@@ -6,7 +6,6 @@
  *
  * @package WDR-theme
  */
-
 ?>
 
 	</div><!-- #content -->

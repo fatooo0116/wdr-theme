@@ -1,0 +1,81 @@
+#footer {
+  background-color:#262626;
+  border:0px;
+  margin:0px;
+  padding:5% 8.333%;
+  z-index:100;
+  position:relative;
+  margin-bottom: 20px;
+
+    p{
+      color:#FFF;
+      margin-bottom:30px;
+    }
+    a{
+      color:#FFF;
+    }
+
+    h3 {
+      color:#FFF;
+      text-transform:uppercase;
+      font-size:1.125em;
+      line-height:1.16666666666667em;
+      margin-top:10px;
+    }
+
+    ul{
+      margin-top:31px;
+      margin-left:0px;
+
+        li{
+          list-style-type:none;
+          font:bold 0.625em/3em "BentonSans","Arial",sans-serif;
+          margin-right: 9px;
+            a{
+              text-transform: uppercase;
+            }
+            &:hover{
+              color:#46bd00;
+            }
+        }
+    }
+
+    .logo {
+      text-indent:-5000px;
+      display: inline-block;
+      background:transparent url('../images/frog-logo.png') no-repeat 0 0;
+      width:60px;
+      height:36px;
+    }
+
+    .location{
+      column-count:2;
+      margin-bottom:33px;
+      li{
+        width:50%;
+        float:left;
+        min-width:100px;
+        margin-right: 0px;
+      }
+    }
+
+  .legal { color:#666; font:400 0.625em/1.4em "source-code-pro","Courier","FangSong","隞踹��","STHeiti","��擧���睲��",serif; margin:20px 0; margin-bottom: 10px; margin-top: 0px;}
+  .legal a {color:#666;}
+  .social{
+    margin:0;
+    li {
+      list-style-type:none;
+      display:inline;
+      float:left;
+      width:auto !important;
+      margin-right:4px;
+      margin-bottom: 9px;
+      a{
+        width:33px;
+        height:33px;
+        display:block;
+      }
+    }
+  }
+
+}
